@@ -14,13 +14,13 @@ import type {
 
 //--- Readme Page Config ---
 export const SITE: Site = {
-  title: 'chirsb',
+  title: 'chrisb',
   description:
-    'Litos is a modern blogging theme built on Astro.js, designed for developers. It supports multiple post layouts, photo displays, project displays, and more, providing an elegant user experience and powerful customization capabilities.',
-  website: 'https://litos.vercel.app/',
+    'chrisb',
+  website: 'https://renovo.co.nz/',
   lang: 'en',
   base: '/',
-  author: 'Dnzzk2',
+  author: 'chrisb',
   ogImage: '/og-image.webp',
   transition: false,
   themeAnimation: true,
@@ -38,6 +38,10 @@ export const HEADER_LINKS: Link[] = [
   {
     name: 'Photos',
     url: '/photos',
+  },
+    {
+    name: 'Random',
+    url: '/random',
   },
 ]
 
@@ -73,14 +77,9 @@ export const SOCIAL_LINKS: SocialLink[] = [
     count: 20,
   },
   {
-    name: 'twitter',
-    url: 'https://x.com/yourname',
-    icon: 'icon-[ri--twitter-x-fill]',
-  },
-  {
-    name: 'bilibili',
-    url: 'https://space.bilibili.com/yourSpaceId',
-    icon: 'icon-[ri--bilibili-fill]',
+    name: 'youtube',
+    url: 'https://www.youtube.com/@MrFox-Kiwi',
+    icon: 'icon-[ri--youtube-fill]',
   },
 ]
 
