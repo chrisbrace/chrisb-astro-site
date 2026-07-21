@@ -14,13 +14,13 @@ import type {
 
 //--- Readme Page Config ---
 export const SITE: Site = {
-  title: 'chrisb',
+  title: 'ChrisB',
   description:
-    'chrisb',
+    'The diary of a guy that just does \"stuff\"',
   website: 'https://renovo.co.nz/',
   lang: 'en',
   base: '/',
-  author: 'chrisb',
+  author: 'ChrisB',
   ogImage: '/og-image.webp',
   transition: false,
   themeAnimation: true,
@@ -214,16 +214,16 @@ export const SKILLSSHOWCASE_CONFIG: SkillsShowcaseConfig = {
 
 export const GITHUB_CONFIG: GithubConfig = {
   ENABLED: true,
-  GITHUB_USERNAME: 'Dnzzk2',
+  GITHUB_USERNAME: 'chrisbrace',
   TOOLTIP_ENABLED: true,
 }
 
 //--- Posts Page Config ---
 export const POSTS_CONFIG: PostConfig = {
   title: 'Posts',
-  description: 'Posts by Dnzzk2',
+  description: 'Posts by chrisbrace',
   introduce: 'Here, I will share the usage instructions for this theme to help you quickly use it.',
-  author: 'Dnzzk2',
+  author: 'chrisbrace',
   homePageConfig: {
     size: 2,
     type: 'compact',
@@ -258,8 +258,8 @@ export const COMMENT_CONFIG: CommentConfig = {
     clientID: import.meta.env.PUBLIC_GITHUB_CLIENT_ID,
     clientSecret: import.meta.env.PUBLIC_GITHUB_CLIENT_SECRET,
     repo: 'gitalk-comment',
-    owner: 'Dnzzk2',
-    admin: ['Dnzzk2'],
+    owner: 'chrisbrace',
+    admin: ['chrisbrace'],
     language: 'en-US',
     perPage: 5,
     pagerDirection: 'last',
@@ -277,8 +277,8 @@ export const TAGS_CONFIG: TagsConfig = {
 
 export const PROJECTS_CONFIG: ProjectConfig = {
   title: 'Projects',
-  description: 'The examples of my projects.',
-  introduce: 'The examples of my projects.',
+  description: 'Projects over the years',
+  introduce: 'Some of the stuff I\'ve done over the years',
 }
 
 export const PHOTOS_CONFIG: PhotosConfig = {
