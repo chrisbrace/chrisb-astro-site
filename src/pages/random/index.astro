@@ -1,0 +1,14 @@
+---
+import Layout from '~/layouts/Layout.astro'
+
+const imageUrl = '/me.jpg'
+---
+
+<Layout title="Random" description="A random photo">
+  <section class="py-16">
+    <div class="flex flex-col items-center gap-6">
+      <img src={imageUrl} alt="Photo of me" class="w-32 h-32 sm:w-40 sm:h-40 object-cover rounded" />
+      <p class="text-center text-muted">Just me — random photo.</p>
+    </div>
+  </section>
+</Layout>

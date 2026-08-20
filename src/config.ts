@@ -16,7 +16,7 @@ import type {
 export const SITE: Site = {
   title: 'ChrisB',
   description:
-    'The diary of a guy that just does \"stuff\"',
+    'The life of a guy that just does \"stuff\"',
   website: 'https://renovo.co.nz/',
   lang: 'en',
   base: '/',
@@ -283,8 +283,8 @@ export const PROJECTS_CONFIG: ProjectConfig = {
 
 export const PHOTOS_CONFIG: PhotosConfig = {
   title: 'Photos',
-  description: 'Here I will record some photos taken in daily life.',
-  introduce: 'Here I will record some photos taken in daily life.',
+  description: 'Some of the more interesting things I\'ve done.',
+  introduce: 'Some of the more interesting things I\'ve done.',
 }
 
 export const ANALYTICS_CONFIG: AnalyticsConfig = {
